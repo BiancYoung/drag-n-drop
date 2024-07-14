@@ -37,4 +37,4 @@ for (const empty of empties) {
   empty.addEventListener("dragenter", dragEnter);
   empty.addEventListener("dragleave", dragLeave);
   empty.addEventListener("drop", dragDrop);
-}
+}.
