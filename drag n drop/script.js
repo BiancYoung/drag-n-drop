@@ -5,7 +5,10 @@ const dragStart = function () {
   this.className += " hold";
   setTimeout(() => (this.className = "invisible"), 0);
 };
-
+const dragStart = function () {
+  this.className += " hold";
+  setTimeout(() => (this.className = "invisible"), 0);
+};
 const dragEnd = function () {
   this.className = "fill";
 };
